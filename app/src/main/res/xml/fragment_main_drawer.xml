@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MotionScene xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ConstraintSet android:id="@+id/start">
+
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:rotation="180"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_page_drawer_menu_name" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_page_drawer_menu_divider" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_page_drawer_menu_first" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_page_drawer_menu_second" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_fourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_page_drawer_menu_third" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_page_drawer_menu_fourth" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_sixth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/main_page_drawer_menu_fifth" />
+
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:rotation="180"
+            app:layout_constraintBottom_toTopOf="@+id/main_page_drawer_menu_setting"
+            app:layout_constraintEnd_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:rotation="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            />
+    </ConstraintSet>
+
+    <ConstraintSet android:id="@+id/end">
+
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:rotation="0"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_divider"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_page_drawer_menu_name" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_first"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_page_drawer_menu_divider" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_second"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_page_drawer_menu_first" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_third"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_page_drawer_menu_second" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_fourth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_page_drawer_menu_third" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_fifth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_page_drawer_menu_fourth" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_sixth"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/main_page_drawer_menu_fifth" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            app:layout_constraintBottom_toTopOf="@+id/main_page_drawer_menu_setting"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+        <Constraint
+            android:id="@+id/main_page_drawer_menu_setting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+    </ConstraintSet>
+
+    <Transition
+        app:constraintSetEnd="@id/end"
+        app:constraintSetStart="@+id/start"
+        app:duration="1000"
+        app:motionInterpolator="easeInOut">
+
+
+    </Transition>
+
+</MotionScene>
